@@ -1,0 +1,46 @@
+.hide {
+  display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #101820ff;
+}
+
+body {
+  padding: 1.5em;
+  color: #fafafa;
+}
+
+h1 {
+  color: #fee715ff;
+  font-size: 1.5rem;
+  margin-bottom: 0.5em;
+}
+
+p {
+  padding: 1.5em 0.8em;
+  background-color: rgb(15, 50, 88);
+  margin-bottom: 0.5em;
+  border-radius: 0.2em;
+}
+
+button {
+  background-color: #fee715ff;
+  padding: 0.8em 1.6em;
+  border: none;
+  border-radius: 0.2em;
+  font-weight: bold;
+}
+
+@media (min-width: 500px) {
+  .container {
+    width: 40%;
+    margin: 0 auto;
+  }
+}
