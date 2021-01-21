@@ -15,8 +15,8 @@ const getJokes = async () => {
   punchlineP.innerHTML = "";
   const jokeRes = await fetch("https://official-joke-api.appspot.com/jokes/programming/random");
   const jokeData = await jokeRes.json();
-  const joke = await jokeData[0].setup;
-  punchline = await jokeData[0].punchline;
+  const joke = jokeData[0].setup;
+  punchline = jokeData[0].punchline;
   introP.textContent = joke;
 };
 getJokes();
